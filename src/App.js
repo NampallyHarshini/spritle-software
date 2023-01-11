@@ -1,6 +1,6 @@
 import './App.css'
 
-import StudentMasterTaskGame from './components/StudentMasterTaskGame'
+import StudentMasterTaskGame from './components/StudentMasterGame'
 
 const App = () => <StudentMasterTaskGame />
 
