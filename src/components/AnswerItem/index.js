@@ -1,6 +1,6 @@
 import './index.css'
 
-const AnswerItem = props => {
+const Answer = props => {
   const {questionDetails} = props
   const {questionI} = questionDetails
 
@@ -50,4 +50,4 @@ const AnswerItem = props => {
     </li>
   )
 }
-export default AnswerItem
+export default Answer
