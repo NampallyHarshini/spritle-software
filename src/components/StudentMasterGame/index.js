@@ -2,10 +2,9 @@ import {Component} from 'react'
 import {v4 as uuidv4} from 'uuid'
 
 import './index.css'
-import AnswerItem from '../AnswerItem'
 import Answer from '../Answer'
 
-class StudentMasterTaskGame extends Component {
+class StudentMasterGame extends Component {
   state = {
     masterName: '',
     masterSubject: '',
@@ -348,4 +347,4 @@ class StudentMasterTaskGame extends Component {
     )
   }
 }
-export default StudentMasterTaskGame
+export default StudentMasterGame
